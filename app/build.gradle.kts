@@ -16,6 +16,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "TMDB_API_KEY", "\"36edbea178a6cf7d284dd9a2d4845bdf\"")
     }
 
     buildTypes {
@@ -36,11 +38,38 @@ android {
     }
 
     buildFeatures{
-        viewBinding = true
+        dataBinding = true
+        buildConfig = true
     }
 }
 
 dependencies {
+    // Room
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+
+    // Lifecycle
+    implementation(libs.lifecycle.viewmodel.ktx)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.savedstate)
+    implementation(libs.lifecycle.common.java8)
+
+    // Dagger
+    implementation(libs.dagger)
+    ksp(libs.dagger.compiler)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.retrofit.logging.interceptor)
+
+    // Glide
+    implementation(libs.glide)
+    ksp(libs.glide.compiler)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
