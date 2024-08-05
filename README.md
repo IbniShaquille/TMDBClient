@@ -1,4 +1,4 @@
-# EducaTour Mobile Development
+# TMDB Client Mobile App
 
 ## App Screens/Components
 
@@ -80,3 +80,7 @@ Download the app from the following link:
 - [MoTour v1.0.0 Pre-Release](https://github.com/IbniShaquille/TMDBClient/releases/tag/Pre-Release)
 
 Download the `apk-release.apk` file from the release page. 
+
+## Credits
+
+This project was inspired and greatly enhanced by the teachings and insights from **Anushka Madusanka**. Their expertise and guidance were invaluable in shaping the development process. I am deeply grateful for their contributions and support.
