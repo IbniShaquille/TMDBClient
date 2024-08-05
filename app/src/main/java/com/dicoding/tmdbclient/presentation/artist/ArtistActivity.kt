@@ -1,6 +1,5 @@
 package com.dicoding.tmdbclient.presentation.artist
 
-import android.opengl.Visibility
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -16,7 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.tmdbclient.R
 import com.dicoding.tmdbclient.databinding.ActivityArtistBinding
 import com.dicoding.tmdbclient.presentation.di.Injector
-import okhttp3.internal.notify
 import javax.inject.Inject
 
 class ArtistActivity : AppCompatActivity() {
