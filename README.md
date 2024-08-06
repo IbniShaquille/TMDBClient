@@ -77,7 +77,7 @@
 
 Download the app from the following link:
 
-- [MoTour v1.0.0 Pre-Release](https://github.com/IbniShaquille/TMDBClient/releases/tag/Pre-Release)
+- [TMDB v1.0.0 Pre-Release](https://github.com/IbniShaquille/TMDBClient/releases/tag/Pre-Release)
 
 Download the `apk-release.apk` file from the release page. 
 
